@@ -1,7 +1,6 @@
 from animator_base import AnimatorBase
 
 class Flash(AnimatorBase):
-    period = 1000
     current_state = False
 
     def __init__(self, np, color, period=1000):
