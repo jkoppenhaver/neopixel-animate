@@ -2,8 +2,6 @@ from machine import Timer
 
 class AnimatorBase:
 
-    period = 10
-
     def __init__(self, np, period=10):
         self.np = np
         self.tim = Timer(-1)
