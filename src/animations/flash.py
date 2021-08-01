@@ -4,9 +4,9 @@ class Flash(AnimatorBase):
     period = 1000
     current_state = False
 
-    def __init__(self, np, color):
+    def __init__(self, np, color, period=1000):
         self.color = color
-        super().__init__(np, period=1000)
+        super().__init__(np, period=period)
 
     def update(self, timer):
         if(self.current_state):
