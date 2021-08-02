@@ -10,7 +10,7 @@ the src directory.  Each animation is a separate python file.  This allows you t
 save space on your device by only loading the animations you use.
 
 ### Loading files
-TO get started, you will need to load animator_base.py and any animation files
+To get started, you will need to load animator_base.py and any animation files
 you plan to use onto your device.  They should reside in the same directory as
 your main python script.  Pushing files to your device can be done with whatever
 tool you normally to move files to your micropython board (ex. Ampy).
