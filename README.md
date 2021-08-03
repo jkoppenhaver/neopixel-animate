@@ -1,6 +1,6 @@
 # neopixel-animate
 neopixel-animate is a small flexible micropython framework for easily creating
-animations to run on neopixel arrays.  neopixel-animate has been tested to run on
+animations to run on NeoPixel arrays.  neopixel-animate has been tested to run on
 the ESP8266 port of micropython and should run on other boards that support micropython.
 
 ## Getting Started
@@ -22,11 +22,9 @@ specific animation examples.
 1. Initialize a NeoPixel Object.
 1. Initialize a animation and pass it the NeoPixel object you created as well as
 any other arguments.  The required arguments will differ slightly from one animation
-to another.  Check the examples or documentation specific to the animation you
-are trying to use.
+to another.  Check the examples or the [animations README](src/README.md) for more details.
 1. To start the anmation call `start()` on the animation object you created.
-1. To stop the animation call `stop()`.  The default behavior of the stop function
-turns off all the LEDs.  To disable this behavior, pass a False to the 'clear' argument.
+1. To stop the animation call `stop()`.
 
 ## Known Issues (READ THIS!)
 ### Running animations can interfere with file uploads
