@@ -11,5 +11,4 @@ class BareMinimum(AnimatorBase):
 
     def update(self, timer):
         # This update function is called at regular intervals by the Animator Base
-        # Replace 'pass' with your pattern updates and np.write()
-        pass
+        self.np.write()
