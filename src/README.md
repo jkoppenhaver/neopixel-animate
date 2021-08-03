@@ -42,3 +42,11 @@ sine wave to full brightness, then to off, and back to half brightness before re
   *color* - The color as a tuple that should be used for the animation  
   *period (Optional, Defalut=5)* - The time (in seconds) for one full cycle
   (half->full->off->half) to complete
+### Alternate
+**Type:** Any  
+**Desc:** Turns all even index LEDs a given color and all odd index LEDs off, then
+alternates the LEDs every period.
+**Arguments:**  
+  *np* - The NeoPixel object the animation should be displayed on  
+  *color* - The color as a tuple that should be used for the animation  
+  *period (Optional, Defalut=1)* - The time (in seconds) each state is shown
