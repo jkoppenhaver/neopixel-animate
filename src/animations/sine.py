@@ -7,7 +7,7 @@ class Sine(AnimatorBase):
         self.color = color
         self.bpp = len(color)
         self.index = 0
-        super().__init__(np, period=period*10)
+        super().__init__(np, period=int(period*10))
 
     def update(self, timer):
         self.np.fill(tuple([round(x*self.sine_values[self.index]) for x in self.color]))
