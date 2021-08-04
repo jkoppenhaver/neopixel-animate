@@ -32,7 +32,7 @@ template to give a starting point for creating new animations.
 **Arguments:**  
   *np* - The NeoPixel object the animation should be displayed on  
   *color* - The color as a tuple that should be used for the animation  
-   *period (Optional, Defalut=1)* - The time (in seconds) the LEDs flash on for
+   *period (Optional, Default=1)* - The time (in seconds) the LEDs flash on for
 
 ### Sine
 **Type:** Any  
@@ -41,7 +41,7 @@ sine wave to full brightness, then to off, and back to half brightness before re
 **Arguments:**  
   *np* - The NeoPixel object the animation should be displayed on  
   *color* - The color as a tuple that should be used for the animation  
-  *period (Optional, Defalut=5)* - The time (in seconds) for one full cycle
+  *period (Optional, Default=5)* - The time (in seconds) for one full cycle
   (half->full->off->half) to complete
 
 ### Alternate
@@ -51,7 +51,7 @@ alternates the LEDs every period.
 **Arguments:**  
   *np* - The NeoPixel object the animation should be displayed on  
   *color* - The color as a tuple that should be used for the animation  
-  *period (Optional, Defalut=1)* - The time (in seconds) each state is shown
+  *period (Optional, Default=1)* - The time (in seconds) each state is shown
 
 ### Chase
 **Type:** Linear, Ring  
@@ -60,8 +60,8 @@ loop back to the beginning when they reach the end.
 **Arguments:**  
   *np* - The NeoPixel object the animation should be displayed on  
   *color* - The color as a tuple that should be used for the animation  
-  *width (Optional, Defualt=1)* - Number of LEDs that are on at one time
-  *period (Optional, Defalut=1)* - The time (in seconds) between each movement
+  *width (Optional, Default=1)* - Number of LEDs that are on at one time
+  *period (Optional, Default=0.1)* - The time (in seconds) between each movement
 of the group
 
 ### Fill
@@ -71,4 +71,4 @@ turn off one by one starting back at the beginning.
 **Arguments:**  
   *np* - The NeoPixel object the animation should be displayed on  
   *color* - The color as a tuple that should be used for the animation  
-  *period (Optional, Defalut=1)* - The time (in seconds) between each LED is changed
+  *period (Optional, Default=0.1)* - The time (in seconds) between each LED is changed
