@@ -53,13 +53,22 @@ alternates the LEDs every period.
   *color* - The color as a tuple that should be used for the animation  
   *period (Optional, Defalut=1)* - The time (in seconds) each state is shown
 
-  ### Chase
-  **Type:** Linear, Ring  
-  **Desc:** A group of LEDs the given color travel down the line in order and
+### Chase
+**Type:** Linear, Ring  
+**Desc:** A group of LEDs the given color travel down the line in order and
 loop back to the beginning when they reach the end.
-  **Arguments:**  
-    *np* - The NeoPixel object the animation should be displayed on  
-    *color* - The color as a tuple that should be used for the animation  
-    *width (Optional, Defualt=1)* - Number of LEDs that are on at one time
-    *period (Optional, Defalut=1)* - The time (in seconds) between each movement
+**Arguments:**  
+  *np* - The NeoPixel object the animation should be displayed on  
+  *color* - The color as a tuple that should be used for the animation  
+  *width (Optional, Defualt=1)* - Number of LEDs that are on at one time
+  *period (Optional, Defalut=1)* - The time (in seconds) between each movement
 of the group
+
+### Fill
+**Type:** Linear, Ring  
+**Desc:** The LEDs turn on one by one in order.  Once all LEDs are on, the LEDs
+turn off one by one starting back at the beginning.
+**Arguments:**  
+  *np* - The NeoPixel object the animation should be displayed on  
+  *color* - The color as a tuple that should be used for the animation  
+  *period (Optional, Defalut=1)* - The time (in seconds) between each LED is changed
