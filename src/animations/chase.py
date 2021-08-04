@@ -6,7 +6,6 @@ class Chase(AnimatorBase):
 
     def __init__(self, np, color, width=1, period=0.1):
         # Add any initialization and variables you need here
-        self.np = np
         self.index = 0
         self.width = width
         self.n = np.n
