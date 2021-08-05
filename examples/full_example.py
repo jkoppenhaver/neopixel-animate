@@ -1,3 +1,6 @@
+# This file loads all of the current animations and picks a random color and
+# animation to run each time the board is reset.
+
 import machine, neopixel, uos
 
 from alternate import Alternate
