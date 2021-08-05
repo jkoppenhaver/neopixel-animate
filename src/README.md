@@ -3,6 +3,9 @@
 - [Bare Minimum](#Bare-Minimum)
 - [Flash](#Flash)
 - [Sine](#Sine)
+- [Alternate](#Alternate)
+- [Chase](#Chase)
+- [Fill](#Fill)
 
 ### Common (The Base)
 These functions are included in the Animator Base so they can be called on all animations.
@@ -60,7 +63,7 @@ loop back to the beginning when they reach the end.
 **Arguments:**  
   *np* - The NeoPixel object the animation should be displayed on  
   *color* - The color as a tuple that should be used for the animation  
-  *width (Optional, Default=1)* - Number of LEDs that are on at one time
+  *width (Optional, Default=1)* - Number of LEDs that are on at one time  
   *period (Optional, Default=0.1)* - The time (in seconds) between each movement
 of the group
 
