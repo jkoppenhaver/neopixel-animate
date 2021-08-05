@@ -12,7 +12,7 @@ class Chase(AnimatorBase):
         self.color = color
         self.off = tuple([0] * len(color))
         # You can also pass a different period to the Animator Base if you need to
-        super().__init__(np, period*1000)
+        super().__init__(np, int(period*1000))
 
     def update(self, timer):
         # This update function is called at regular intervals by the Animator Base
